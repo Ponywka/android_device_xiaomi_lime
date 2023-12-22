@@ -78,7 +78,7 @@ vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so
 vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so
 
 # Alarm
-product/app/PowerOffAlarm/PowerOffAlarm.apk
+-product/app/PowerOffAlarm/PowerOffAlarm.apk
 system_ext/lib/vendor.qti.hardware.alarm@1.0.so
 system_ext/lib64/vendor.qti.hardware.alarm@1.0.so
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service
@@ -754,7 +754,7 @@ system_ext/lib64/vendor.qti.hardware.data.qmi@1.0.so
 system_ext/lib64/vendor.qti.hardware.slmadapter@1.0.so
 system_ext/lib64/vendor.qti.latency@2.0.so
 vendor/app/CneApp/lib/arm64/libvndfwk_detect_jni.qti.so
-vendor/app/CneApp/CneApp.apk
+-vendor/app/CneApp/CneApp.apk
 vendor/bin/hw/vendor.qti.hardware.factory@1.0-service
 vendor/bin/cnd
 vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml
@@ -1545,7 +1545,7 @@ vendor/etc/libnfc-qrd-SN100.conf
 vendor/etc/libnfc-qrd-SN100_38_4MHZ.conf
 
 # PASR
-vendor/app/pasrservice/pasrservice.apk
+-vendor/app/pasrservice/pasrservice.apk
 vendor/bin/hw/vendor.qti.power.pasrmanager@1.0-service
 vendor/etc/init/vendor.qti.power.pasrmanager@1.0-service.rc
 vendor/lib/hw/vendor.qti.power.pasrmanager@1.0-impl.so
@@ -1556,7 +1556,7 @@ vendor/lib64/vendor.qti.memory.pasrmanager@1.0.so
 vendor/lib64/vendor.qti.power.pasrmanager@1.0.so
 
 # Payment (IFAA)
-app/IFAAService/IFAAService.apk
+-app/IFAAService/IFAAService.apk
 
 # Payment (Xiaomi)
 vendor/bin/fidoca
@@ -1687,7 +1687,7 @@ vendor/lib64/vendor.qti.qspmhal@1.0-impl.so
 vendor/lib64/vendor.qti.qspmhal@1.0.so
 
 # Radio
-system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
+-system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
 system_ext/lib/vendor.qti.hardware.radio.am@1.0.so
 system_ext/lib/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so
 system_ext/lib/vendor.qti.hardware.radio.lpa@1.0.so
@@ -1724,8 +1724,8 @@ system_ext/lib64/vendor.qti.hardware.radio.uim@1.2.so
 system_ext/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so
 system_ext/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so
 system_ext/lib64/vendor.qti.hardware.radio.uim_remote_client@1.2.so
-system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
-vendor/app/IWlanService/IWlanService.apk
+-system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
+-vendor/app/IWlanService/IWlanService.apk
 vendor/bin/hw/qcrild
 vendor/bin/ATFWD-daemon
 vendor/bin/adpl
@@ -1898,7 +1898,7 @@ system_ext/lib64/vendor.qti.ims.rcsconfig@2.1.so
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so
 system_ext/priv-app/ims/lib/arm64/libimscamera_jni.so
 system_ext/priv-app/ims/lib/arm64/libimsmedia_jni.so
-system_ext/priv-app/ims/ims.apk
+-system_ext/priv-app/ims/ims.apk
 vendor/bin/ims_rtp_daemon
 vendor/bin/imsdatadaemon
 vendor/bin/imsqmidaemon
@@ -2197,7 +2197,7 @@ vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.soter@1.0.so
 
 # Soter (Tencent)
-app/SoterService/SoterService.apk
+-app/SoterService/SoterService.apk
 
 # Soundtrigger
 system_ext/lib/vendor.qti.voiceprint@1.0.so
@@ -2235,7 +2235,7 @@ vendor/etc/thermal-youtube.conf
 vendor/etc/thermald-devices.conf
 
 # Time services
-vendor/app/TimeService/TimeService.apk
+-vendor/app/TimeService/TimeService.apk
 vendor/bin/time_daemon
 vendor/etc/init/init.time_daemon.rc
 vendor/lib/libtime_genoff.so
@@ -2382,7 +2382,7 @@ system_ext/lib64/vendor.qti.hardware.sigma_miracast@1.0-halimpl.so
 system_ext/lib64/vendor.qti.hardware.sigma_miracast@1.0.so
 system_ext/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so
 system_ext/priv-app/WfdService/lib/arm64/libwfdnative.so
-system_ext/priv-app/WfdService/WfdService.apk
+-system_ext/priv-app/WfdService/WfdService.apk
 vendor/bin/wfdhdcphalservice
 vendor/bin/wfdvndservice
 vendor/bin/wifidisplayhalservice
@@ -2425,13 +2425,13 @@ odm/etc/vintf/manifest_pomelo.xml
 odm/etc/build_lemon.prop
 odm/etc/build_lime.prop
 odm/etc/build_pomelo.prop
-vendor/app/CACertService/CACertService.apk
-vendor/app/ConnectionSecurityService/ConnectionSecurityService.apk
-vendor/app/IconShapeOverlay/IconShapeOverlay.apk
-vendor/app/NotchOverlay/NotchOverlay.apk
-vendor/app/QCC-TR-UI/QCC-TR-UI.apk
-vendor/app/SSGTelemetryService/SSGTelemetryService.apk
-vendor/app/SensorTestTool/SensorTestTool.apk
+-vendor/app/CACertService/CACertService.apk
+-vendor/app/ConnectionSecurityService/ConnectionSecurityService.apk
+-vendor/app/IconShapeOverlay/IconShapeOverlay.apk
+-vendor/app/NotchOverlay/NotchOverlay.apk
+-vendor/app/QCC-TR-UI/QCC-TR-UI.apk
+-vendor/app/SSGTelemetryService/SSGTelemetryService.apk
+-vendor/app/SensorTestTool/SensorTestTool.apk
 vendor/bin/hw/capabilityconfigstoretest
 vendor/bin/hw/displayfeatureqservice
 vendor/bin/hw/vendor.silead.hardware.fingerprintext@1.0-service
@@ -2543,9 +2543,6 @@ vendor/bin/wifilearner
 vendor/bin/wigig_wiburn
 vendor/bin/wigighalsvc
 vendor/bin/wigignpt
-vendor/data-app/GlobalFashiongallery/GlobalFashiongallery.apk
-vendor/data-app/XMRemoteController/XMRemoteController.apk
-vendor/data-app/wps_lite/wps_lite.apk
 vendor/etc/data/dsi_config.xml
 vendor/etc/data/netmgr_config.xml
 vendor/etc/default-permissions/com.qualcomm.qti.cne.xml
